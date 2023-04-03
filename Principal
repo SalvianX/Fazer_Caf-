@@ -1,0 +1,14 @@
+package Fazer_Café;
+
+public class Principal {
+	public static void main(String[]args){
+		bebidaQuente bebida1 = new Cha();
+		bebidaQuente bebida2 = new Cafe();
+		
+		bebida1.fazer();
+		bebida2.fazer();
+		
+		
+	}
+
+}
