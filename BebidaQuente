@@ -1,0 +1,11 @@
+package Fazer_Café;
+
+public class Cafe extends BebidaQuente {
+	public void misturar() {
+		System.out.println("Misturando café!");
+	}
+	public void adicionarCondimentos() {
+		System.out.println("Adicionando Leite!");
+	}
+
+}
